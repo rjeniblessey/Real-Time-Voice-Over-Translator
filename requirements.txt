@@ -1,0 +1,42 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Web framework
+flask
+
+# Audio processing
+pydub
+librosa
+soundfile
+noisereduce
+
+# Realistic TTS (Microsoft Neural – highly recommended)
+edge-tts
+
+# Fallback TTS
+gtts
+
+# Speech-to-text (AI)
+openai-whisper
+
+# Translation
+deep-translator
+
+# AI source separation
+demucs
+
+# PyTorch CPU build
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# Document processing
+python-docx
+PyPDF2
+reportlab
+pdfkit
+# also install: sudo apt install wkhtmltopdf
+
+# Utilities (let pip resolve typing-extensions automatically)
+scipy
+numpy==1.26.4
+SpeechRecognition
